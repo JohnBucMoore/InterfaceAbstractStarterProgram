@@ -52,5 +52,13 @@ public class MarkovRunnerWithInterface {
 		}
 		System.out.println("\n----------------------------------");
 	}
-	
+
+	public void test() {
+    	runMarkov();
+	}
+
+	public static void main(String[] args) {
+		MarkovRunnerWithInterface mri = new MarkovRunnerWithInterface();
+		mri.test();
+	}
 }

@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d477d067-a192-4a96-8719-53d95d31c4e5" name="Default Changelist" comment="initial commit">
+    <list default="true" id="d477d067-a192-4a96-8719-53d95d31c4e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovRunnerWithInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovRunnerWithInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarkovZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +54,25 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MarkovRunnerWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MarkovRunnerWithInterface" />
+      <module name="InterfaceAbstractStarterProgram" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MarkovRunnerWithInterface" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -66,7 +97,7 @@
       <updated>1577055235149</updated>
       <workItem from="1577055237069" duration="235000" />
       <workItem from="1577154809746" duration="192000" />
-      <workItem from="1577199072314" duration="2389000" />
+      <workItem from="1577199072314" duration="4137000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577055367724</created>
@@ -75,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577055367724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes">
+      <created>1577206416058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577206416058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,13 +121,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="27" key="CommitChangelistDialog2" timestamp="1577205675559">
+    <state x="445" y="27" key="CommitChangelistDialog2" timestamp="1577206415333">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="445" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577205675559" />
+    <state x="445" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577206415333" />
     <state x="446" y="325" width="891" height="199" key="Github.ShareDialog" timestamp="1577205761302">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
