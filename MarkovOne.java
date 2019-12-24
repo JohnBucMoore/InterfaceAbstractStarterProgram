@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MarkovOne implements IMarkovModel{
-    private String myText;
-    private Random myRandom;
+public class MarkovOne extends AbstractMarkovModel{
 
     public MarkovOne() {
         myRandom = new Random();
@@ -38,21 +36,5 @@ public class MarkovOne implements IMarkovModel{
         }
 
         return sb.toString();
-    }
-
-    public ArrayList<String> getFollows(String key) {
-        ArrayList<String> follows = new ArrayList<>();
-        int pos = 0;
-        while (pos < myText.length()) {
-            int start = myText.indexOf(key, pos);
-            if (start == -1 || (start + key.length() >= myText.length())) {
-                break;
-            }
-            pos = start + key.length();
-            String next = myText.substring(pos, pos + 1);
-            follows.add(next);
-
-        }
-        return follows;
     }
 }

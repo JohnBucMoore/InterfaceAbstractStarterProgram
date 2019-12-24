@@ -1,14 +1,10 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class MarkovModel implements IMarkovModel{
-    private String myText;
-    private Random myRandom;
+public class MarkovModel extends AbstractMarkovModel{
     private int myNum;
 
-    public MarkovModel(int n) {
-        myRandom = new Random();
-        myNum = n;
+    public MarkovModel(int n) { myNum = n;
     }
 
     public void setRandom(int seed){
@@ -40,24 +36,5 @@ public class MarkovModel implements IMarkovModel{
         }
 
         return sb.toString();
-    }
-
-    public ArrayList<String> getFollows(String key) {
-        ArrayList<String> follows = new ArrayList<>();
-        int pos = 0;
-        while (pos < myText.length()) {
-            int start = myText.indexOf(key, pos);
-            if (start == -1 || (start + key.length() >= myText.length())) {
-                break;
-            }
-            pos = start + key.length();
-            if (pos + 1 > myText.length()) {
-                break;
-            }
-            String next = myText.substring(pos, pos + 1);
-            follows.add(next);
-
-        }
-        return follows;
     }
 }
