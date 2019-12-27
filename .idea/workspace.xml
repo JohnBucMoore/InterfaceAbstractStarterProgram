@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d477d067-a192-4a96-8719-53d95d31c4e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EfficientMarkovModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractMarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractMarkovModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/IMarkovModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkovFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkovModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkovOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarkovRunnerWithInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovRunnerWithInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarkovZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/MarkovZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterfaceAbstractStarterProgram/AbstractMarkovModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceAbstractStarterProgram/AbstractMarkovModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterfaceAbstractStarterProgram/MarkovRunnerWithInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceAbstractStarterProgram/MarkovRunnerWithInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <updated>1577055235149</updated>
       <workItem from="1577055237069" duration="235000" />
       <workItem from="1577154809746" duration="192000" />
-      <workItem from="1577199072314" duration="7563000" />
+      <workItem from="1577199072314" duration="23579000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1577055367724</created>
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577208332132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="extend MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes with AbstractMarkovModel">
+      <created>1577211878940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577211878940</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,36 +137,41 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes" />
     <MESSAGE value="implement IMarkovInterface in MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement IMarkovInterface in MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes" />
+    <MESSAGE value="extend MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes with AbstractMarkovModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="extend MarkovZero, MarkovOne, MarkovFour, and MarkovModel classes with AbstractMarkovModel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="27" key="CommitChangelistDialog2" timestamp="1577208331479">
+    <state x="416" y="27" key="CommitChangelistDialog2" timestamp="1577211878135">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state x="445" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577208331479" />
+    <state x="416" y="27" key="CommitChangelistDialog2/0.23.1440.843@0.23.1440.843" timestamp="1577211878135" />
     <state x="446" y="325" width="891" height="199" key="Github.ShareDialog" timestamp="1577205761302">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="446" y="325" width="891" height="199" key="Github.ShareDialog/0.23.1440.843@0.23.1440.843" timestamp="1577205761302" />
-    <state width="588" height="206" key="GridCell.Tab.0.bottom" timestamp="1577211827452">
+    <state width="774" height="206" key="GridCell.Tab.0.bottom" timestamp="1577408969443">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="588" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577211827452" />
-    <state width="588" height="206" key="GridCell.Tab.0.center" timestamp="1577211827451">
+    <state width="774" height="206" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1577408969443" />
+    <state width="774" height="206" key="GridCell.Tab.0.center" timestamp="1577408969442">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="588" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577211827451" />
-    <state width="588" height="206" key="GridCell.Tab.0.left" timestamp="1577211827450">
+    <state width="774" height="206" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1577408969442" />
+    <state width="774" height="206" key="GridCell.Tab.0.left" timestamp="1577408969441">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="588" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577211827450" />
-    <state width="588" height="206" key="GridCell.Tab.0.right" timestamp="1577211827451">
+    <state width="774" height="206" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1577408969441" />
+    <state width="774" height="206" key="GridCell.Tab.0.right" timestamp="1577408969442">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
-    <state width="588" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577211827451" />
+    <state width="774" height="206" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1577408969442" />
     <state x="416" y="23" key="SettingsEditor" timestamp="1577203987445">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="416" y="23" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1577203987445" />
+    <state x="640" y="164" key="Vcs.Push.Dialog.v2" timestamp="1577211884758">
+      <screen x="0" y="23" width="1440" height="843" />
+    </state>
+    <state x="640" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.843@0.23.1440.843" timestamp="1577211884758" />
   </component>
 </project>

@@ -40,7 +40,6 @@ public abstract class AbstractMarkovModel implements IMarkovModel {
             }
             String next = myText.substring(pos, pos + 1);
             follows.add(next);
-
         }
         return follows;
     }
