@@ -58,6 +58,21 @@ public class MarkovRunnerWithInterface {
     	return "MarkovModel of order " + m.getClass();
 	}
 
+	public void compareMethods() {
+		FileResource fr = new FileResource();
+		String st = fr.asString();
+		st = st.replace('\n', ' ');
+    	MarkovModel mm = new MarkovModel(2);
+    	EfficientMarkovModel emm = new EfficientMarkovModel(2);
+    	int size = 1000;
+    	int seed = 42;
+		System.nanoTime();
+    	runModel(mm, st, size, seed);
+		System.nanoTime();
+    	runModel(emm, st, size, seed);
+		System.nanoTime();
+	}
+
 	public void testHashMap() {
 		String st = "yes-this-is-a-thin-pretty-pink-thistle";
 		st = st.replace('\n', ' ');
@@ -73,6 +88,6 @@ public class MarkovRunnerWithInterface {
 
 	public static void main(String[] args) {
 		MarkovRunnerWithInterface mri = new MarkovRunnerWithInterface();
-		mri.testHashMap();
+		mri.compareMethods();
 	}
 }
